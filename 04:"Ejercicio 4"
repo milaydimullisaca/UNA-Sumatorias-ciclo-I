@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,n,impar;
+    cin>>n;
+    impar=1;
+    for (int i=1;i<=n;i++)
+    {
+       
+   impar=impar+1;
+   a=a+impar;
+    
+     
+    }
+   cout<<a;
+
+    
+    return 0;
+}
